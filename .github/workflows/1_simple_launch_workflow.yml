@@ -34,4 +34,4 @@ jobs:
         run: |
           pip install -e ".[dev]"
       - name: Run python script
-        run: python generic/functs/run_code.py
+        run: python custom/functs/run_code.py
